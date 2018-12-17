@@ -1,0 +1,15 @@
+#serverClent_1
+server:
+  port: 8001
+
+eureka:
+ instance:
+  hostname: www.xtyghost.com
+ client:
+   register-with-eureka: false
+   fetchRegistry: false
+   serviceUrl:
+    defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+spring:
+  application:
+    name: sell-server
