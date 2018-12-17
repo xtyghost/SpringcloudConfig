@@ -1,7 +1,4 @@
 #serverClent_1
-server:
-  port: 8001
-
 eureka:
  instance:
   hostname: www.xtyghost.com
