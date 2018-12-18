@@ -1,3 +1,11 @@
+#testValue
+version: 1
+
+
+
+
+
+
 #serverClent_1
 eureka:
  instance:
@@ -7,9 +15,4 @@ eureka:
    fetchRegistry: false
    serviceUrl:
     defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
-spring:
-  application:
-    name: sell-server
 
-#testValue
-version: 1
