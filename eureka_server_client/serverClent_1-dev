@@ -10,3 +10,6 @@ eureka:
 spring:
   application:
     name: sell-server
+
+#testValue
+version: 1
